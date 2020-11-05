@@ -1,10 +1,13 @@
 import React from 'react';
 import './Home.css';
 
+import Input from '../../components/Input/Input';
+
 const Home = () => {
     return (
         <div className='home'>
-            <h1> Welcome to react</h1>
+            <img src = 'logo.png' alt='Logo' />
+            <Input />
         </div>
     )
 }
