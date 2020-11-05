@@ -6,7 +6,43 @@
   margin-top: 150px;
 }
 
+.home > a {
+  position: absolute;
+  color: rgb(77, 76, 76);
+  top: 20px;
+  right: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
 .home > img {
   object-fit: contain;
   height: 100px;
+}
+
+@media (min-height: 1024px) {
+  .home {
+    margin-top: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .home {
+    margin-top: 250px;
+  }
+  .home > img {
+    height: 70px;
+  }
+}
+
+@media (max-width: 376px) {
+  .home {
+    margin-top: 150px;
+  }
+
+  .home > img {
+    height: 55px;
+  }
 }

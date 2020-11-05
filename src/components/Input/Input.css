@@ -33,3 +33,27 @@
 .input > form > button:hover {
   background-color: #2c74f0;
 }
+
+@media (max-width: 769px) {
+  .input > form > input {
+    width: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .input > form > input {
+    width: 250px;
+  }
+}
+
+@media (max-width: 360px) {
+  .input > form > input {
+    width: 200px;
+  }
+}
+
+@media (max-width: 299px) {
+  .input > form > input {
+    width: 170px;
+  }
+}
