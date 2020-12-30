@@ -1,4 +1,4 @@
-# SEACRHH (SEARCH ENGINE APP)
+# SEARCHH (SEARCH ENGINE APP)
 
 A search engine application built with google search engine API.<br/>
 *You can find the app here: https://searchh-rjs.web.app/*
